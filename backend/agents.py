@@ -2,9 +2,7 @@ import os
 from dotenv import load_dotenv
 from crewai import Agent, Crew, Task, Process
 from crewai_tools import (
-    DirectoryReadTool,
     FileReadTool,
-    SerperDevTool,
     WebsiteSearchTool, 
     CSVSearchTool
 )
@@ -49,7 +47,7 @@ task1 = Task(
 )
 
 
-crew = Crew(
+recommendation_agent = Crew(
   agents=[financial_analyst],
   tasks=[task1],
   verbose=2, # You can set it to 1 or 2 to different logging levels
@@ -58,7 +56,7 @@ crew = Crew(
 )
 
 # Get your crew to work!
-result = crew.kickoff()
+# result = crew.kickoff()
 
 data_bot = Agent(
             role="AI Bot for finance related question-answer.",
@@ -108,5 +106,5 @@ chatbot = Crew(
 )
 
 
-output = chatbot.kickoff(inputs={'question': "What is the total amount for the credit transaction for customer_id 926?"})
-print(output)
+# output = chatbot.kickoff(inputs={'question': "What is the total amount for the credit transaction for customer_id 926?"})
+# print(output)
