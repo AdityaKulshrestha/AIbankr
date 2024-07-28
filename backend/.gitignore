@@ -1,0 +1,6 @@
+.env 
+__pycache__ 
+db 
+data 
+testing_api.py 
+tasks.py
