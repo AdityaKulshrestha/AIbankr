@@ -23,5 +23,5 @@
 
 ## For setting the AzureEmbedding - Change the import in EmbedChain 
 `from langchain_openai import AzureOpenAIEmbeddings`
-
+backend\.venv\lib\site-packages\embedchain\embedder\azure_openai.py
 This is mainly due to a deprecated import error because of langchain. 
