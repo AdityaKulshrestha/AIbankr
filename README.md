@@ -36,13 +36,13 @@ This is a React web app that leverages AI to provide personalized financial insi
 
 
 ## Localization
-Our app supports multiple languages, including:
-- English
-- Hindi
-- Marathi
-- Punjabi
+Our app supports multiple languages
+
+#### Hindi
 ![Screenshot (2831)](https://github.com/user-attachments/assets/3c198738-04c2-4f9e-b468-0d6a17a5b0fb)
+#### Marathi
 ![Screenshot (2832)](https://github.com/user-attachments/assets/820c3fe0-b65f-4e60-9cec-300e37a87508)
+#### Punjabi
 ![Screenshot (2833)](https://github.com/user-attachments/assets/575fc5d9-681e-49e3-937e-fe36860619c7)
 
 ## BOB AI Agent: Sarah
